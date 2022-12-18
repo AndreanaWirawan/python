@@ -10,7 +10,7 @@ con = mysql.connector.connect(
 cursor = con.cursor()
 
 #buat database
-# cursor = con.cursor('create database putu')
+# cursor.execute('create database putu')
 
 #mengaktifkan database
 #cursor.execute('use putu')
